@@ -3,7 +3,7 @@
 
 <h2>Computer</h2> <p>science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. It is the scientific and practical approach to computation and its applications and the systematic study of the feasibility, structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, processing, storage, communication of, and access to information. An alternate, more succinct definition of computer science is the study of automating algorithmic processes that scale. A computer scientist specializes in the theory of computation and the design of computational systems.</p>
 
-<h2> Software development vs. Web development <h2>
+<h2> Software development vs. Web development </h2>
 	In computer programming both software development and web development refers to the same engineer or programmer and the process of coding. [8]
 
 <p>Note: software programs, esp. mobile apps can operate on the web.
