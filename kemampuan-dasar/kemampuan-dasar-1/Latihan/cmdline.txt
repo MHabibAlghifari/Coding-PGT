@@ -1,0 +1,268 @@
+20 command line & Fungsinya 
+
+1. ping 
+
+Example of the ping command output
+C:\>ping example.microsoft.com
+    pinging example.microsoft.com [192.168.239.132] with 32 bytes of data:
+    Reply from 192.168.239.132: bytes=32 time=101ms TTL=124
+    Reply from 192.168.239.132: bytes=32 time=100ms TTL=124
+    Reply from 192.168.239.132: bytes=32 time=120ms TTL=124
+    Reply from 192.168.239.132: bytes=32 time=120ms TTL=124
+
+Fungsinya : digunakan untuk cek kecepatan internet.
+ 
+2. Whoami
+
+C:\Users\USER>Whoami
+desktop-fjvle2s\user
+
+Fungsinya : melihat nama dari user yang ada pada komputer
+
+3 Hostname
+C:\Users\USER>Hostname
+DESKTOP-FJVLE2S
+
+Fungsinya : untuk melihat nama host atau jaringan
+
+3. Getmac
+Physical Address    Transport Name
+=================== ==========================================================
+00-21-CC-6B-6B-28   Media disconnected
+08-11-96-64-18-04   \Device\Tcpip_{577703E7-02F7-441C-A749-234570907392}
+N/A                 Hardware not present
+N/A                 Hardware not present
+N/A                 Hardware not present
+N/A                 Hardware not present
+N/A                 Hardware not present
+0A-00-27-00-00-19   \Device\Tcpip_{EC635550-9EDA-4774-8E83-63E6C00140B1}
+0A-00-27-00-00-0D   \Device\Tcpip_{4DD20288-BACF-4BEB-ACEC-601430C65E71} 
+
+Fungsinya : untuk melihat alamat mac atau alamat fisik dari komputer
+
+4. Taskmgr
+C:\Users\USER>Taskmgr
+
+C:\Users\USER>
+
+Fungsinya : melihat beberapa data seperti penggunaan CPU, Memory, Disk, serta Network. 
+Kamu juga bisa menutup aplikasi yang sedang berjalan 
+atau mengalami freeze atau error melalui Task Manager
+
+5. Systeminfo
+ 
+C:\Users\USER>Systeminfo
+
+Host Name:                 DESKTOP-FJVLE2S
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          USER   
+
+Fungsinya : menampilkan informasi komputer
+
+6. Tree
+
+C:\Users\USER>Tree
+Folder PATH listing
+Volume serial number is 7069-030E
+C:.
+├───.android
+├───.VirtualBox
+├───.vscode
+│   └───extensions
+│       ├───ms-python.python-2021.9.1246542782
+│       │   ├───dist
+│       │   ├───images
+│       │   ├───languages
+│       │   ├───out
+│       │   │   └───client
+│       │   │       └───node_modules
+│       │   │           └───unicode
+│       │   │               └───category
+
+
+Fungsinya : menampilkan struktur dalam suatu folder
+
+7. Tasklist
+ C:\Users\USER>Tasklist
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0      3.844 K
+Registry                       100 Services                   0     41.960 K
+smss.exe                       436 Services                   0        676 K
+csrss.exe                      568 Services                   0      3.276 K
+
+Fungsinya : menampilkan informasi aplikasi yang sedang berjalan di komputer
+
+8. help
+
+ C:\Users\USER>
+C:\Users\USER>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+
+Fungsinya : menampilkan fungsi-fungsi apa saja yang bisa dipakai.
+
+10 . Assoc
+
+C:\Users\USER>Assoc
+.001=WinRAR
+.386=vxdfile
+.3g2=WMP11.AssocFile.3G2
+.3gp=WMP11.AssocFile.3GP
+.3gp2=WMP11.AssocFile.3G2
+.3gpp=WMP11.AssocFile.3GP
+.7z=WinRAR
+.AAC=WMP11.AssocFile.ADTS
+
+Fungsinya : Sebagian besar file yang terdapat pada Windows itu terhubung
+ dengan salah satu program agar bisa membuka file secara default. 
+Hal ini memudahkan pengguna Windows ketika ingin membuka suatu file
+
+11. Cipher 
+
+C:\Users\USER>Cipher
+
+ Listing C:\Users\USER\
+ New files added to this directory will not be encrypted.
+
+U .android
+U .packettracer
+U .VirtualBox
+U .vscode
+U .xdm-global-lock
+U .xdman
+U 3D Objects
+U aaa
+
+Fungsinya : menghapus direktori dengan cara menuliskan data secara acak  
+di dalamnya, yang bertujuan untuk menghapus file yang sudah 
+dihapus secara permanen dari drive C kamu.
+
+13. Driverquery 
+
+C:\Users\USER>Driverquery
+
+Module Name  Display Name           Driver Type   Link Date
+============ ====================== ============= ======================
+1394ohci     1394 OHCI Compliant Ho Kernel
+3ware        3ware                  Kernel        19/05/2015 05:28:03
+ACPI         Microsoft ACPI Driver  Kernel
+AcpiDev      ACPI Devices driver    Kernel
+acpiex       Microsoft ACPIEx Drive Kernel
+acpipagr     ACPI Processor Aggrega Kernel
+AcpiPmi      ACPI Power Meter Drive Kernel
+
+Fungsinya : melihat daftar apa saja yang terinstal pada driver PC
+
+14.Netstat 
+
+C:\Users\USER>Netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:60417        DESKTOP-FJVLE2S:60483  ESTABLISHED
+  TCP    127.0.0.1:60467        DESKTOP-FJVLE2S:60468  ESTABLISHED
+  TCP    127.0.0.1:60468        DESKTOP-FJVLE2S:60467  ESTABLISHED
+  TCP    127.0.0.1:60469        DESKTOP-FJVLE2S:60470  ESTABLISHED
+
+Fungsinya :mendeteksi apakah trojan menginfeksi sistem PC
+kamu dan juga dapat mendeteksi koneksi yang tidak wajar.
+
+15. Cls
+ 
+C:\Users\USER>
+
+Fungsinya : maka semua perintah sebelumnya akan terhapus 
+dan command prompt akan seperti baru dibuka
+
+16. Date 
+ C:\Users\USER>Date
+The current date is: 11/08/2022
+Enter the new date: (dd-mm-yy) 
+ 
+Fungsinya : menampilkan tanggal pada layar cmd. Selain itu, 
+juga bisa mengatur ulang tanggal pada PC jika belum sesuai
+
+17. Time
+
+C:\Users\USER>Time
+
+The current time is: 19:19:25,53
+Enter the new time:
+
+Fungsinya : dapat menampilkan tanggal, kamu juga bisa menampilkan waktu pada 
+layar CMD dengan menggunakan perintah time. Atau kamu 
+bisa mengatur waktu yang sesuai jika waktu yang tampil belum benar
+
+18. ftype
+
+C:\Users\USER>Ftype
+Acrobat.aaui="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.acrobatsecuritysettings.1="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.Document.DC="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.FDFDoc="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.pdfxml.1="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.RMFFile="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.XDPDoc="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+Acrobat.XFDFDoc="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+acrobat2018="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" /u "%1"
+AcrobatBPDXFileType="C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Acrobat.exe" "%1"
+
+Fungsinya : menampilkan tipe file beserta informasi 
+aplikasi yang bisa digunakan untuk membukanya. 
+
+19. Dir 
+ C:\Users\USER>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 7069-030E
+
+ Directory of C:\Users\USER
+
+11/08/2022  17:58    <DIR>          .
+11/08/2022  17:58    <DIR>          ..
+25/04/2022  18:36    <DIR>          .android
+25/03/2022  20:48             1.240 .packettracer
+06/08/2022  09:54    <DIR>          .VirtualBox
+24/09/2021  21:58    <DIR>          .vscode
+31/08/2021  00:41                 0 .xdm-global-lock
+29/08/2021  13:01    <DIR>          .xdman
+
+Fungsinya : digunakan untuk menampilkan file dan folder aktif. 
+Misalnya kamu berada pada folder USER, maka daftar folder dan 
+file yang ditampilkan adalah yang berada pada folder USER.
+
+20. Sc
+
+C:\Users\USER>sc
+DESCRIPTION:
+        SC is a command line program used for communicating with the
+        Service Control Manager and services.
+USAGE:
+        sc <server> [command] [service name] <option1> <option2>...
+
+
+        The option <server> has the form "\\ServerName"
+        Further help on commands can be obtained by typing: "sc [command]"
+        Commands:
+          query-----------Queries the status for a service, or
+                          enumerates the status for types of services.
+          queryex---------Queries the extended status for a service, or
+                          enumerates the status for types of services.
+          start-----------Starts a service.
+          pause-----------Sends a PAUSE control request to a serv
+ 
+ Fungsinnya : menampilkan informasi aplikasi yang berjalan di latarbelakang
+  

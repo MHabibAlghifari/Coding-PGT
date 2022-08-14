@@ -1,0 +1,1 @@
+tree /F /A > $output.txt
